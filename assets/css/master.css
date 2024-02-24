@@ -4643,7 +4643,7 @@ img {
 }
 
 .team__area {
-  padding-bottom: 300px;
+  padding-bottom: 5px;
   background-image: url(../imgs/shape/zigzag-2.png);
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -6440,7 +6440,7 @@ img {
 .breadcrumb__area {
   padding-top: 300px;
   padding-bottom: 192px;
-  background-image: url(../imgs/hero/breadcrumb.png);
+  background-image: url(../../images/about-banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
