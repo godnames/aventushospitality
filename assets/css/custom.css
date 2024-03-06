@@ -64,3 +64,21 @@
 .service__details .row .img img{
     height: 500px;
 }
+.service__details .more-service__item .icon-box{
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.service__details .more-service__item .icon-box img{
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    height: 93px;
+    width: 93px;
+}
+.breadcrumb__area_rm{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Revenue-management-banner-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
