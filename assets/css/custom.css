@@ -74,11 +74,75 @@
     height: 93px;
     width: 93px;
 }
-.breadcrumb__area_rm{
+.rm{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/Revenue-management-banner-image.png');
+    background-image: url('/images/revenue-management-banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+}
+.acc{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Accounting-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.cha{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Consulting-Hotel-Audit-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.ops{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Operations-Support-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.hias{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Hotel-Investment-Advisory-Support-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.dm{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Digital-Marketing-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.otam{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/OTA-Management-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.rpm{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Reputation-Management-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cgs{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Corporate-Group-Sales-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
