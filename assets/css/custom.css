@@ -74,78 +74,39 @@
     height: 93px;
     width: 93px;
 }
-.rm{
+.Service{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/revenue-management-banner\ \(1\).png');
+    background-image: url('/images/Services.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    /* background-size: cover;   */
     
 }
-.acc{
+.Contact{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/revenue-management-banner.png');
+    background-image: url('/images/Contact-us.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    /* background-size: cover;   */
+    
 }
-.cha{
+.blog{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/Consulting-Hotel-Audit-banner.png');
+    background-image: url('/images/Blog.png') !important;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
+    /* background-size: cover;   */
 }
-.ops{
+.about-us{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/Operations-Support-banner.png');
+    background-image: url('/images/About-us.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;  
-}
-.hias{
-    padding-top: 300px;
-    padding-bottom: 192px;
-    background-image: url('/images/Hotel-Investment-Advisory-Support-banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
-}
-.dm{
-    padding-top: 300px;
-    padding-bottom: 192px;
-    background-image: url('/images/Digital-Marketing-banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.otam{
-    padding-top: 300px;
-    padding-bottom: 192px;
-    background-image: url('/images/OTA-Management-banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} 
-.rpm{
-    padding-top: 300px;
-    padding-bottom: 192px;
-    background-image: url('/images/Reputation-Management-banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cgs{
-    padding-top: 300px;
-    padding-bottom: 192px;
-    background-image: url('/images/Corporate-Group-Sales-banner.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
 }
 .header__area{
     background: #faf9f6;
