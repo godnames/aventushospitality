@@ -83,6 +83,15 @@
     /* background-size: cover;   */
     
 }
+.Career{
+    padding-top: 300px;
+    padding-bottom: 192px;
+    background-image: url('/images/Career.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover;   */
+    
+}
 .Contact{
     padding-top: 300px;
     padding-bottom: 192px;
@@ -134,4 +143,10 @@
 }
 .second-image{
     padding-left: 80px;
+}
+.service__details-title{
+    font-size: 30px;
+}
+.blog__form input, .blog__form textarea, .blog__form select{
+    border: 1px solid black;
 }
