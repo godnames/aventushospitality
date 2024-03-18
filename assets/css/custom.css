@@ -162,3 +162,12 @@
 .team__content:hover p a{
     color: white;
 }
+.blog__form {
+    padding-top: 10px;
+}
+.contact__item p a{
+    padding: 10px;
+}
+.breadcrumb__inner{
+    display: block;
+}

@@ -51,75 +51,62 @@
   <!-- Header area start -->
   <header class="header__area pos-abs plr-100">
     <div class="header__inner">
-      <div class="header__logo">
-        <a href="index.html"><img src="images/Aventus-hospitality-logo.png" alt="Site Logo"></a>
-      </div>
-      <div class="header__menu">
-        <nav class="main-menu">
-          <ul>
-            <li class="has-dropdown"><a href="#">Home</a>
-              <ul class="main-dropdown">
-                <li>
-                    <a href="index.html">Home 01</a>
+        <div class="header__logo">
+            <a href="index.html"><img src="images/Aventus-hospitality-logo.png" alt="Site Logo"></a>
+        </div>
+        <div class="header__menu">
+          <nav class="main-menu">
+            <ul>
+                <li class="active">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="has-dropdown"> 
+                    <a href="about.html">About</a>
+                    <ul class="main-dropdown"> 
+                        <li><a href="Our-Teams.html">Our Team</a></li>
+                    </ul>
+                </li>
+                <li class="has-dropdown">
+                    <a href="service.html">Service</a>
+                    <ul class="main-dropdown">
+                        <li><a href="Revenue-Management.html">Hotel Revenue Management</a></li>
+                        <li><a href="OTA-Management.html">OTA Management</a></li>
+                        <li><a href="Corporate-Group-Sales.html">Corporate/Group Sales</a></li>
+                        <li><a href="Reputation-Management.html">Reputation Management</a></li>
+                        <li><a href="Accounting.html">Accounting</a></li>
+                        <li><a href="Digital-Marketing.html">Digital Marketing</a></li>
+                        <li><a href="Consulting-Hotel-Audit.html">Consulting / Hotel Audit</a></li>
+                        <li><a href="Hotel-Investment-Advisory-Support.html">Hotel Investment/Advisory Support</a></li>
+                        <li><a href="Operations-Support.html">Operations Support </a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="index-2.html">Home 02</a>
+                    <a href="blog.html">blog</a>
                 </li>
                 <li>
-                    <a href="index-3.html">Home 03</a>
+                    <a href="contact.html">Contact</a>
                 </li>
-              </ul>
-            </li>
-            <li><a href="#">About</a></li>
-
-            <li class="has-dropdown"><a href="#">Service</a>
-              <ul class="main-dropdown">
-                <li><a href="service.html">Service</a></li>
-                <li><a href="#">Service details</a></li>
-              </ul>
-            </li>
-
-            <li class="has-megamenu"><a href="#">pages</a>
-              <ul class="main-dropdown">
-                <li><a href="project.html">portfolio</a></li>
-                <li><a href="project-details.html">portfolio details</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="team-details.html">team details</a></li>
-                <li><a href="faq.html">faq</a></li>
-              </ul>
-            </li>
-
-            <li class="has-dropdown"><a href="#">blog</a>
-              <ul class="main-dropdown">
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="blog-grid.html">Blog Grid</a></li>
-                <li><a href="blog-details.html">blog details</a></li>
-              </ul>
-            </li>
-
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+            </ul>
         </nav>
-      </div>
-      <div class="header__others">
-        <div class="header__search">
-          <button class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
-          <button class="search-close"><i class="fa-solid fa-xmark"></i></button>
         </div>
-        <div class="header__offcanvas">
-          <button class="menu_icon">
-            <img src="assets/imgs/icon/menu.png" alt="Menu Icon">
-          </button>
+        <div class="header__others">
+            <!-- <div class="header__search">
+                    <button class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <button class="search-close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div> -->
+            <div class="header__offcanvas">
+                <button class="menu_icon bg-base">
+                    <img src="assets/imgs/icon/menu.png" alt="Menu Icon">
+                </button>
+            </div>
         </div>
-      </div>
     </div>
   </header>
 
-  <div class="search__form">
-    <form action="#">
-      <input type="text" name="s" placeholder="Search...">
-    </form>
-  </div>
   <!-- Header area end -->
 
 
@@ -128,85 +115,99 @@
     <div class="offcanvas__inner">
       <div class="offcanvas__top">
         <img src="images/Aventus-hospitality-logo.png" alt="Logo">
-        <button id="offcanvas_close"><i class="fa-solid fa-xmark"></i></button>
+        <button id="offcanvas_close">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
       </div>
-      <div class="offcanvas__search">
+      <!-- <div class="offcanvas__search">
         <form action="#">
-          <input type="text" placeholder="Search..." name="s">
+            <input type="text" placeholder="Search..." name="s">
         </form>
-      </div>
+    </div> -->
       <div class="offcanvas__menu">
-        <div class="offcanvas-menu">
-          <ul>
-            <li><a href="#">Home</a>
-              <ul>
-                <li><a href="index.html">Home 01</a></li>
-                <li><a href="index-2.html">Home 02</a></li>
-                <li><a href="index-3.html">Home 03</a></li>
-              </ul>
-            </li>
-            <li><a href="#">About</a></li>
-
-            <li><a href="#">Service</a>
-              <ul>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="#">Service details</a></li>
-              </ul>
-            </li>
-            <li><a href="#">Pages</a>
-              <ul>
-                <li><a href="project.html">portfolio</a></li>
-                <li><a href="project-details.html">portfolio details</a></li>
-                <li><a href="team.html">team</a></li>
-                <li><a href="team-details.html">team details</a></li>
-                <li><a href="faq.html">faq</a></li>
-              </ul>
-            </li>
-            <li><a href="#">blog</a>
-              <ul>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="blog-grid.html">Blog Grid</a></li>
-                <li><a href="blog-details.html">Blog details</a></li>
-              </ul>
-            </li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
+                <div class="offcanvas-menu">
+                    <ul>
+                        <li class="active">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li><a href="about.html">About</a>
+                            <ul>
+                                <li><a href="Our-Teams.html">Our Team</a></li>
+                              </ul>
+                        </li>
+                        <li><a href="service.html">Service</a>
+                            <ul>
+                                <li><a href="Revenue-Management.html">Hotel Revenue Management</a></li>
+                                <li><a href="OTA-Management.html">OTA Management</a></li>
+                                <li><a href="Corporate-Group-Sales.html">Corporate/Group Sales</a></li>
+                                <li><a href="Reputation-Management.html">Reputation Management</a></li>
+                                <li><a href="Accounting.html">Accounting</a></li>
+                                <li><a href="Digital-Marketing.html">Digital Marketing</a></li>
+                                <li><a href="Consulting-Hotel-Audit.html">Consulting / Hotel Audit</a></li>
+                                <li><a href="Hotel-Investment-Advisory-Support.html">Hotel Investment/Advisory Support</a></li>
+                                <li><a href="Operations-Support.html">Operations Support </a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">blog</a>
+                            
+                        </li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
       <div class="offcanvas__map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1511.2499674845235!2d-73.99553882767792!3d40.75102778252164!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1686536419224!5m2!1sen!2sbd"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.690845953523!2d-84.12955122431323!3d33.353025673428206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f45ce6882598cb%3A0xd7cb46ca7f45bcfd!2s4699%20Bill%20Gardner%20Pkwy%2C%20Locust%20Grove%2C%20GA%2030248%2C%20USA!5e0!3m2!1sen!2sin!4v1707992544612!5m2!1sen!2sin"
           loading="lazy"></iframe>
       </div>
       <div class="offcanvas__btm">
         <div class="footer__address-3">
           <ul>
             <li>
-              <span><i class="fa-solid fa-location-dot"></i></span>
-              <p class="text-white">Burmsille Street, MN 55337, <br>
-                United States</p>
+              <span>
+                <i class="fa-solid fa-location-dot"></i>
+              </span>
+
+              <p class="text-white"><a href="https://maps.app.goo.gl/Ga2QszTrtvzrDKGR7">4699 Bill Gardner Pkwy, <br>
+                  Locust Grove, GA 30248</a> </p>
             </li>
             <li>
-              <span><i class="fa-solid fa-phone"></i></span>
+              <span>
+                <i class="fa-solid fa-phone"></i>
+              </span>
               <div>
-                <a href="tel:+88014420420">+(1) 123 456 7890</a>
-                <a href="tel:+88014420420">+(1) 098 765 4321</a>
+                <a href="tel:+14785387904">478-538-7904</a>
+                <!-- <a href="tel:+88014420420">+(1) 098 765 4321</a> -->
               </div>
             </li>
             <li>
-              <span><i class="fa-solid fa-envelope"></i></span>
+              <span>
+                <i class="fa-solid fa-envelope"></i>
+              </span>
               <div>
-                <a href="mailto:info@driller.com">info@driller.com</a>
-                <a href="mailto:info.example@driller.com">info.example@driller.com</a>
+                <a href="mailto:harsh@aventushospitality.com">harsh@aventushospitality.com</a>
+                <!-- <a href="mailto:info.example@driller.com">info.example@driller.com</a> -->
               </div>
             </li>
           </ul>
         </div>
         <div class="footer__social-3">
           <ul>
-            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -224,12 +225,13 @@
           <div class="col-xxl-12">
             <div class="breadcrumb__inner">
               <div class="breadcrumb__left">
-                <h1 class="breadcrumb__title">Our Team Details</h1>
+                <h1 class="breadcrumb__title">Our Team </h1>
               </div>
               <div class="breadcrumb__right">
                 <ul>
-                  <li> <a href="">home</a> </li>
-                  <li> <a href="">Our Team Details</a> </li>
+                  <li> <a href="index.html">home</a> </li>
+                  <li> <a href="Our-Teams.html">Our Team </a> </li>
+                  <li><a >Ashwin Patel</a></li>
                 </ul>
               </div>
             </div>
@@ -253,7 +255,7 @@
                         <h3 class="mb-2">Ashwin Patel</h3>
                         <span class="designation">CEO/Chief Executive Officer</span>
                         <div class="details mt-4">
-                            <h4>About Me</h4>
+                            <!-- <h4>About Me</h4> -->
                             <p>With over three decades of hospitality experience since 1989, Ashwin Patel is a seasoned leader renowned for his mastery in hotel operations. Having navigated esteemed brands like Choice, Wyndham, Best Western, and IHG, Ashwin's track record speaks volumes about his success in optimizing operations across diverse portfolios.</p>
                             <p>As the CEO of Aventus Hospitality, Ashwin brings unparalleled expertise and vision to the table. His strategic leadership and hands-on approach set new standards of excellence, driving sustainable growth and innovation within the industry.</p>
                             <p>Under Ashwin's guidance, Aventus Hospitality is poised to redefine hospitality excellence, offering innovative solutions and exceptional service to clients worldwide. With a legacy of achievement and a commitment to excellence, Ashwin Patel continues to shape the future of hospitality with unwavering dedication and passion.</p>
@@ -325,13 +327,16 @@
                         <h2 class="footer__title">Quick Links</h2>
                         <ul>
                             <li>
-                                <a href="#">About Us</a>
+                                <a href="about.html">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Blog</a>
+                                <a href="blog.html">Blog</a>
                             </li>
                             <li>
-                                <a href="#">Contact </a>
+                                <a href="contact.html">Contact </a>
+                            </li>
+                            <li>
+                                <a href="#">Carrer</a>
                             </li>
                             <!-- <li>
                                     <a href="#">Project</a>
