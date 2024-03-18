@@ -77,15 +77,16 @@
 .rm{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/revenue-management-banner.png');
+    background-image: url('/images/revenue-management-banner\ \(1\).png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
+    
 }
 .acc{
     padding-top: 300px;
     padding-bottom: 192px;
-    background-image: url('/images/Accounting-banner.png');
+    background-image: url('/images/revenue-management-banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
@@ -145,4 +146,19 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.header__area{
+    background: #faf9f6;
+}
+/* .team__content p a{
+    color: var(--white);
+    text-transform: capitalize;
+    padding-top: 0;
+} */
+.team__content p a:hover{
+    color: white;
+
+}
+.team__content:hover p a{
+    color: white;
 }
