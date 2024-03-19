@@ -150,3 +150,9 @@
 .blog__form input, .blog__form textarea, .blog__form select{
     border: 1px solid black;
 }
+
+.db-btn-main-color-one, .db-btn-main-color-one:hover {
+    color: var(--white);
+    background-color: var(--main-color-one);
+    border-radius: 50px !important;
+}
